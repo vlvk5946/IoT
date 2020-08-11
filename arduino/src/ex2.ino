@@ -58,7 +58,7 @@ void OLEDdraw(){
   u8g2.drawStr(114,36,"\xb0");
   u8g2.drawStr(119,36,"C");
   
-  u8g2.drawStr(1,47,"DC FAN PWM");
+  u8g2.drawStr(15,47,"FAN");
   u8g2.setCursor(85,47);
   u8g2.print(PWM);
 
